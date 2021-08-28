@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Dshboard</title>
+  </head>
+  <body>
+    <div class="container main-container">
+      <nav class="container-fluid">
+        <div class="logo">
+          <h1>F.</h1>
+        </div>
+        <div class="navigation-list">
+          <!-- <ul> -->
+          <li class="dashboard"><a href="#">Dashboard</a></li>
+          <li><a href="#">Bookings</a></li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">Accounts</a></li>
+          <!-- </ul> -->
+        </div>
+        <div class="navigation-last">
+          <button class="btn btn-primary btn-lg">New booking</button>
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="bell"
+            class="svg-inline--fa fa-bell fa-w-14"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              fill="currentColor"
+              d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z"
+            ></path>
+          </svg>
+          <div class="image">
+            <img class="img-fluid" src="user-4.jpg" alt="image" srcset="" />
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="section-container">
+                <div class="new-itnerary-container">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="o1">
+                        <p>01</p>
+                        <div class="circle"></div>
+                        <h6>New Itinerary</h6>
+                      </div>
+
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="caret-down"
+                        class="svg-inline--fa fa-caret-down fa-w-10"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="o1">
+                        <p id="o3">03</p>
+                        <div class="circle"></div>
+                        <h6>Pending Approval</h6>
+                      </div>
+
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="caret-down"
+                        class="svg-inline--fa fa-caret-down fa-w-10"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="o1">
+                        <p>01</p>
+                        <div class="circle"></div>
+                        <h6>Confirmed Itinerary</h6>
+                      </div>
+
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="caret-down"
+                        class="svg-inline--fa fa-caret-down fa-w-10"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="ongoing-trip-container">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="o1">
+                        <p>02</p>
+                        <div class="circle"></div>
+                        <h6>Ongoing Trips</h6>
+                      </div>
+
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="caret-down"
+                        class="svg-inline--fa fa-caret-down fa-w-10"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="o1">
+                        <p id="o3" class="o3">&#8377; 16,579</p>
+
+                        <h6 style="margin-top: 4rem">Pending Payments</h6>
+                      </div>
+
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="caret-down"
+                        class="svg-inline--fa fa-caret-down fa-w-10"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="o1">
+                        <p id="o3">&#8377; 24,359</p>
+
+                        <h6 style="margin-top: 4rem">Earning This Month</h6>
+                      </div>
+
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="caret-down"
+                        class="svg-inline--fa fa-caret-down fa-w-10"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-5">
+              <img
+                class="graph-img bg-white img-fluid"
+                src="Daco_4436273.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="">
+        <div class="tabel-section">
+          <div class="open-itineraries-box">
+            <p class="paragraph">5 Open Itineraries</p>
+            <div class="buttons-box">
+              <button type="button" class="myButton">All</button>
+              <button type="button" class="myButton pendingbutton">
+                Pending
+              </button>
+              <button type="button" class="myButton pendingbutton">
+                Confirmed
+              </button>
+            </div>
+          </div>
+
+          <div class="table-responsive">
+            <table class="table container">
+              <thead class="" style="border-top: none">
+                <tr>
+                  <th scope="col">status</th>
+                  <th scope="col">Itinerary No</th>
+                  <th scope="col">Start Location</th>
+                  <th scope="col">Destination</th>
+                  <th scope="col">Departure On</th>
+                  <th scope="col">Return on</th>
+                  <th scope="col">Travellers</th>
+                  <th scope="col">Class</th>
+                  <th scope="col">Type</th>
+                  <th scope="col">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    <a
+                      href="http://#"
+                      class="
+                        btn btn-primary btn-outline-secondary
+                        smallpadding
+                        new
+                      "
+                    >
+                      &nbsp; &nbsp;New &nbsp; &nbsp;
+                    </a>
+                  </th>
+                  <td>011354793</td>
+                  <td>BLR-Bengaluru</td>
+                  <td>DEL-Delhi</td>
+                  <td>12/08/2020</td>
+                  <td>16/08/2020</td>
+                  <td>01</td>
+                  <td>Economy</td>
+                  <td>Individual</td>
+                  <td>check</td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <a
+                      href="http://#"
+                      class="btn btn-primary btn-outline-secondary smallpadding"
+                      >Pending &nbsp;</a
+                    >
+                  </th>
+                  <td>031312711</td>
+                  <td>BLR-Bengaluru</td>
+                  <td>HYD-Hyderabad</td>
+                  <td>16/08/2020</td>
+                  <td>24/08/2020</td>
+                  <td>02</td>
+                  <td>Business</td>
+                  <td>Corporate</td>
+                  <td>Remind</td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <a
+                      href="http://#"
+                      class="btn btn-primary btn-outline-secondary smallpadding"
+                      >Confirmed</a
+                    >
+                  </th>
+                  <td>063454145</td>
+                  <td>BLR-Bengaluru</td>
+                  <td>Maa-Chennai</td>
+                  <td>18/08/2020</td>
+                  <td>19/08/2020</td>
+                  <td>03</td>
+                  <td>Economy</td>
+                  <td>Corporate</td>
+                  <td>Book</td>
+                </tr>
+
+                <tr>
+                  <th scope="row">
+                    <a
+                      href="http://#"
+                      class="btn btn-primary btn-outline-secondary smallpadding"
+                      >Pending &nbsp;</a
+                    >
+                  </th>
+                  <td>9321110234</td>
+                  <td>BLR-Bengaluru</td>
+                  <td>BCN-Barcelona</td>
+                  <td>26/09/2020</td>
+                  <td>28/10/2020</td>
+                  <td>01</td>
+                  <td>Bussiness</td>
+                  <td>Corporate</td>
+                  <td>Remind</td>
+                </tr>
+
+                <tr>
+                  <th id="forPadding" scope="row">
+                    <a
+                      href="http://#"
+                      class="btn btn-primary btn-outline-secondary smallpadding"
+                      >Confirmed</a
+                    >
+                  </th>
+                  <td id="forPadding">146829047</td>
+                  <td id="forPadding">BLR-Bengaluru</td>
+                  <td id="forPadding">KLR- Kuala Lumpur</td>
+                  <td id="forPadding">08/09/2020</td>
+                  <td id="forPadding">09/09/2020</td>
+                  <td id="forPadding">01</td>
+                  <td id="forPadding">Economy</td>
+                  <td id="forPadding">Individual</td>
+                  <td id="forPadding">Book</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
